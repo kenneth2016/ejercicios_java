@@ -1,0 +1,15 @@
+.boton{
+	height: 50px;
+	width: 75px;
+
+}
+
+.primerdiv{
+	min-height: 50px;
+	background: red;
+
+}
+
+.todo{
+	text-align: center;
+}

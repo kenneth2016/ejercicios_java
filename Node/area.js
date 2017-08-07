@@ -13,12 +13,12 @@ var areaCirculo = function(radio) {
 }
 
 
-if (figura == "ractangulo"){
-	var base = 10;
-	var altura = 5;
-	console.log(areaRectangulo);
+var calcular = function (figura, d1, d2){
+	return(figura(d1, d2));
+}
 
-} else{
-	console.log("nada")
+if (figura == "rectangulo"){
+	console.log(calcular(areaRectangulo))
 
 }
+

@@ -5,8 +5,9 @@ function isPrime(n){
 		if (n%i==0){
 			return false;
 		}
-		return true
 	}
+
+	return true
 }
 if (isPrime(n)==false){
 	console.log("no es primo")

@@ -1,12 +1,12 @@
 .rectangulo{
-	width: 150px;
+	width: 100px;
 	height: 350px;
 	background-color: gray;
 	position: relative;
-	padding-top: 10%;
 	padding-bottom: 10%;
 	padding-right: 10%;
-	padding-left: 10%;
+	padding-left: 5%;
+	border: solid black;
 
 }
 

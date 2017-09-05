@@ -36,6 +36,16 @@ function render (mountPoint, component, state){
 	mountPoint.appendChild(component(state));
 
 } 
-
+var state = 0;
 var root = document.getElementById("root");
-render(root, semaforo, 0);
+render(root, semaforo, state);
+
+var boton= document.getElementById("boton");
+
+boton.onclick= function(){
+	state++;
+	if (state>2) {
+		state=0;
+	};
+	render(root, semaforo, state);
+};

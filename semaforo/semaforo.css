@@ -31,7 +31,7 @@
 .verde{
 	width: 150px;
 	height: 150px;
-	background-color: green;
+	background-color: #00FF00;
 	border-radius: 100%;
 	opacity: 0.2;
 }
@@ -41,4 +41,7 @@
 	width: 100px;
 	height: 50px;
 	border-radius: 25%;
+	background: #81F7BE;
 }
+
+

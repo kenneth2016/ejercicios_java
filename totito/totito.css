@@ -1,0 +1,32 @@
+.contenedor{
+	border: solid black;
+	height: 150px;
+	width: 117px;
+}
+
+
+
+.div1{
+	
+	height: 33px;
+	width: 33px;
+	border: solid black;
+	float: left;
+
+}
+
+.div2{
+	
+	height: 33px;
+	width: 33px;
+	border: solid black;
+	float: left;
+}
+
+.div3{
+	
+	height: 33px;
+	width: 33px;
+	border: solid black;
+	float: left;
+}

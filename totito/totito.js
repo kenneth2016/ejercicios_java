@@ -1,56 +1,50 @@
 function totito(state){
 
 	var contenedor = document.createElement("div");
-	var fila1 = document.createElement("div");
-	var fila2 = document.createElement("div");
-	var fila3 = document.createElement("div");
-	var div11 = document.createElement("div");
-	var div12 = document.createElement("div");
-	var div13 = document.createElement("div");
-	var div21 = document.createElement("div");
-	var div22 = document.createElement("div");
-	var div23 = document.createElement("div");
-	var div31 = document.createElement("div");
-	var div32 = document.createElement("div");
-	var div33 = document.createElement("div");
+	var div1 = document.createElement("div");
+	var div2 = document.createElement("div");
+	var div3 = document.createElement("div");
+	var div4 = document.createElement("div");
+	var div5 = document.createElement("div");
+	var div6 = document.createElement("div");
+	var div7 = document.createElement("div");
+	var div8 = document.createElement("div");
+	var div9 = document.createElement("div");
 	
 
 	contenedor.className="contenedor";
-	fila1.className="fila1";
-	fila2.className="fila2";
-	fila3.className="fila3";
-	div11.className="div11";
-	div12.className="div12";
-	div13.className="div13";
-	div21.className="div21";
-	div22.className="div22";
-	div23.className="div23";
-	div31.className="div31";
-	div32.className="div32";
-	div33.className="div33";
+	div1.className="div1";
+	div2.className="div2";
+	div3.className="div3";
+	div4.className="div4";
+	div5.className="div5";
+	div6.className="div6";
+	div7.className="div7";
+	div8.className="div8";
+	div9.className="div9";
 
-	fila1.appendChild(div11);
-	fila1.appendChild(div12);
-	fila1.appendChild(div13);
-	fila2.appendChild(div21);
-	fila2.appendChild(div22);
-	fila2.appendChild(div23);
-	fila3.appendChild(div31);
-	fila3.appendChild(div32);
-	fila3.appendChild(div33);
-	contenedor.appendChild(fila1);
-	contenedor.appendChild(fila2);
-	contenedor.appendChild(fila3);
 
-	if (state == 0){
-		rojo.style.opacity=1;
-	};
-	if (state == 1){
-		verde.style.opacity=1;
-	};
-	if (state == 2){
-		amarillo.style.opacity=1;
-	}
+	contenedor.appendChild(div1);
+	contenedor.appendChild(div2);
+	contenedor.appendChild(div3);
+	contenedor.appendChild(div4);
+	contenedor.appendChild(div5);
+	contenedor.appendChild(div6);
+	contenedor.appendChild(div7);
+	contenedor.appendChild(div8);
+	contenedor.appendChild(div9);
+
+
 
 return contenedor;
 }
+
+function render (mountPoint, component, state){
+	mountPoint.innerHTML="";
+	mountPoint.appendChild(component(state));
+
+} 
+
+var state = 0;
+var root = document.getElementById("root");
+render(root, totito, state);

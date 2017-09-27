@@ -1,32 +1,261 @@
 .contenedor{
 	border: solid black;
-	height: 150px;
-	width: 117px;
+	height: 267px;
+	width: 267px;
 }
 
 
 
 .div1{
 	
-	height: 33px;
-	width: 33px;
+	height: 83px;
+	width: 83px;
 	border: solid black;
 	float: left;
 
 }
 
-.div2{
-	
-	height: 33px;
-	width: 33px;
+
+.div1o{
+	background: green;
+	height: 83px;
+	width: 83px;
 	border: solid black;
 	float: left;
+
+}
+
+
+.div1x{
+	background: red;
+	height: 83px;
+	width: 83px;
+	border: solid black;
+	float: left;
+
+}
+
+
+.div2{
+	
+	height: 83px;
+	width: 83px;
+	border: solid black;
+	float: left;
+}
+
+
+.div2o{
+	background: green;
+	height: 83px;
+	width: 83px;
+	border: solid black;
+	float: left;
+
+}
+
+
+.div2x{
+	background: red;
+	height: 83px;
+	width: 83px;
+	border: solid black;
+	float: left;
+
 }
 
 .div3{
 	
-	height: 33px;
-	width: 33px;
+	height: 83px;
+	width: 83px;
 	border: solid black;
 	float: left;
+}
+
+.div3o{
+	background: green;
+	height: 83px;
+	width: 83px;
+	border: solid black;
+	float: left;
+
+}
+
+
+.div3x{
+	background: red;
+	height: 83px;
+	width: 83px;
+	border: solid black;
+	float: left;
+
+}
+
+.div4{
+	
+	height: 83px;
+	width: 83px;
+	border: solid black;
+	float: left;
+}
+
+
+.div4o{
+	background: green;
+	height: 83px;
+	width: 83px;
+	border: solid black;
+	float: left;
+
+}
+
+
+.div4x{
+	background: red;
+	height: 83px;
+	width: 83px;
+	border: solid black;
+	float: left;
+
+}
+
+.div5{
+	
+	height: 83px;
+	width: 83px;
+	border: solid black;
+	float: left;
+}
+
+
+.div5o{
+	background: green;
+	height: 83px;
+	width: 83px;
+	border: solid black;
+	float: left;
+
+}
+
+
+.div5x{
+	background: red;
+	height: 83px;
+	width: 83px;
+	border: solid black;
+	float: left;
+
+}
+
+.div6{
+	
+	height: 83px;
+	width: 83px;
+	border: solid black;
+	float: left;
+}
+
+
+.div6o{
+	background: green;
+	height: 83px;
+	width: 83px;
+	border: solid black;
+	float: left;
+
+}
+
+
+.div6x{
+	background: red;
+	height: 83px;
+	width: 83px;
+	border: solid black;
+	float: left;
+
+}
+
+.div7{
+	
+	height: 83px;
+	width: 83px;
+	border: solid black;
+	float: left;
+}
+
+
+.div7o{
+	background: green;
+	height: 83px;
+	width: 83px;
+	border: solid black;
+	float: left;
+
+}
+
+
+.div7x{
+	background: red;
+	height: 83px;
+	width: 83px;
+	border: solid black;
+	float: left;
+
+}
+
+.div8{
+	
+	height: 83px;
+	width: 83px;
+	border: solid black;
+	float: left;
+}
+
+
+.div8o{
+	background: green;
+	height: 83px;
+	width: 83px;
+	border: solid black;
+	float: left;
+
+}
+
+
+.div8x{
+	background: red;
+	height: 83px;
+	width: 83px;
+	border: solid black;
+	float: left;
+
+}
+
+
+
+.div9{
+	
+	height: 83px;
+	width: 83px;
+	border: solid black;
+	float: left;
+}
+
+.div9o{
+	background: green;
+	height: 83px;
+	width: 83px;
+	border: solid black;
+	float: left;
+
+}
+
+
+.div9x{
+	background: red;
+	height: 83px;
+	width: 83px;
+	border: solid black;
+	float: left;
+
 }

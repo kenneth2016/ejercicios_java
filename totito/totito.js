@@ -1,3 +1,4 @@
+
 function totito(state){
 
 	var contenedor = document.createElement("div");
@@ -35,6 +36,31 @@ function totito(state){
 	contenedor.appendChild(div9);
 
 
+	var state = {
+	tablero = [[0, 0, 0],
+				[0, 0, 0],
+				[0, 0, 0]]
+
+	turno = True
+	};
+
+
+
+	for (var fila = 0; fila<state.tablero.length; fila++){
+		for (var columna = 0; columna<state.tablero.length; columna++){
+			if (state.tablero[fila][columna] == 0){
+			
+
+			} else if(state.tablero[fila][columna] == 1 ){
+
+
+			}
+			else{ 
+
+			}
+		}
+	}
+
 
 return contenedor;
 }
@@ -45,6 +71,10 @@ function render (mountPoint, component, state){
 
 } 
 
-var state = 0;
+
 var root = document.getElementById("root");
 render(root, totito, state);
+
+
+
+

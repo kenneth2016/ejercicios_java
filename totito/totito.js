@@ -8,16 +8,22 @@ function totito(state){
 			var div = document.createElement("div");
 			contenedor.appendChild(div);
 			div.className="div1"
-			div.onclick = generarOnClick(state, fila, columna);
+			
 			if (state.tablero[fila][columna]==0) {
 				div.className="div1"
+
+
+				div.onclick = generarOnClick(state, fila, columna);
 			}
 			else if (state.tablero[fila][columna]==1) {
 				div.className="div1x"
+
 			}
 			else {
 				div.className="div1o"
 			}
+
+	
 
 	}
 
@@ -38,8 +44,33 @@ function generarOnClick(state, fila, columna) {
 			state.tablero[fila][columna]=-1
 		}
 
+
 		render(root, totito, state);
 
+		if (state.tablero[0][1]==1 && state.tablero[0][2]==1 && state.tablero[0][0]==1){
+			alert("x gana");
+		}
+		if (state.tablero[1][1]==1 && state.tablero[1][2]==1 && state.tablero[1][0]==1){
+			alert("x gana");
+		}
+		if (state.tablero[2][1]==1 && state.tablero[2][2]==1 && state.tablero[2][0]==1){
+			alert("x gana");
+		}
+		if (state.tablero[0][0]==1 && state.tablero[1][0]==1 && state.tablero[2][0]==1){
+			alert("x gana");
+		}
+		if (state.tablero[0][1]==1 && state.tablero[1][1]==1 && state.tablero[2][1]==1){
+			alert("x gana");
+		}
+		if (state.tablero[0][2]==1 && state.tablero[1][2]==1 && state.tablero[2][2]==1){
+			alert("x gana");
+		}
+		if (state.tablero[0][0]==1 && state.tablero[1][1]==1 && state.tablero[2][2]==1){
+			alert("x gana");
+		}
+		if (state.tablero[0][2]==1 && state.tablero[1][1]==1 && state.tablero[2][0]==1){
+			alert("x gana");
+		}
 
 	};
 }

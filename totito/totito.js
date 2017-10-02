@@ -72,6 +72,31 @@ function generarOnClick(state, fila, columna) {
 			alert("x gana");
 		}
 
+		if (state.tablero[0][1]==-1 && state.tablero[0][2]==-1 && state.tablero[0][0]==-1){
+			alert("O gana");
+		}
+		if (state.tablero[1][1]==-1 && state.tablero[1][2]==-1 && state.tablero[1][0]==-1){
+			alert("O gana");
+		}
+		if (state.tablero[2][1]==-1 && state.tablero[2][2]==-1 && state.tablero[2][0]==-1){
+			alert("O gana");
+		}
+		if (state.tablero[0][0]==-1 && state.tablero[1][0]==-1 && state.tablero[2][0]==-1){
+			alert("O gana");
+		}
+		if (state.tablero[0][1]==-1 && state.tablero[1][1]==-1 && state.tablero[2][1]==-1){
+			alert("O gana");
+		}
+		if (state.tablero[0][2]==-1 && state.tablero[1][2]==-1 && state.tablero[2][2]==-1){
+			alert("O gana");
+		}
+		if (state.tablero[0][0]==-1 && state.tablero[1][1]==-1 && state.tablero[2][2]==-1){
+			alert("O gana");
+		}
+		if (state.tablero[0][2]==-1 && state.tablero[1][1]==-1 && state.tablero[2][0]==-1){
+			alert("O gana");
+		}
+
 	};
 }
 
